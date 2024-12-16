@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Static Website</title>
+    <style>
+        /* Apply background image */
+        body {
+            background-image: url('https://mytfbucket2024.s3.eu-west-1.amazonaws.com/image.jpg');
+            background-size: cover; /* Ensures the background covers the entire page */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents repeating the image */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white; /* White text color for visibility */
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for header */
+        }
+        h1 {
+            font-size: 3em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent footer */
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Static Website</h1>
+    </header>
+
+    <main>
+        <p style="text-align: center; font-size: 1.5em; padding-top: 50px;">This is a simple static website with a background image.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Static Website</p>
+    </footer>
+
+</body>
+</html>
